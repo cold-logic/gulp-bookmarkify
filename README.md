@@ -4,11 +4,11 @@
 
 <table>
 <tr>
-<td>Package</td><td>gulp-uglify</td>
+<td>Package</td><td>gulp-bookmarkify</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>Minify files with UglifyJS.</td>
+<td>Create bookmarklets with UglifyJS.</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -19,11 +19,11 @@
 ## Usage
 
 ```javascript
-var uglify = require('gulp-uglify');
+var bookmarkify = require('gulp-bookmarkify');
 
 gulp.task('compress', function() {
   gulp.files('./lib/*.js')
-    .pipe(uglify())
+    .pipe(bookmarkify())
     .pipe(gulp.folder('./dist/'))
 });
 ```
