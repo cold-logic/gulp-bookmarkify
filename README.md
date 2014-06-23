@@ -21,10 +21,10 @@
 ```javascript
 var bookmarkify = require('gulp-bookmarkify');
 
-gulp.task('compress', function() {
-  gulp.files('./lib/*.js')
+gulp.task('default', function() {
+  gulp.src('src/*.js')
     .pipe(bookmarkify())
-    .pipe(gulp.folder('./dist/'))
+    .pipe(gulp.folder('dist'));
 });
 ```
 
