@@ -1,7 +1,7 @@
 {
   "name": "gulp-bookmarkify",
   "version": "0.1.0",
-  "description": "Minify files with UglifyJS.",
+  "description": "Addon to Gulp to generate browser bookmarklets",
   "keywords": [
     "gulpplugin"
   ],
