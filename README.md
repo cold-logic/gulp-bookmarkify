@@ -8,7 +8,7 @@
 </tr>
 <tr>
 <td>Description</td>
-<td>Create bookmarklets with UglifyJS.</td>
+<td>Addon for Gulp to create browser bookmarklets.</td>
 </tr>
 <tr>
 <td>Node Version</td>
